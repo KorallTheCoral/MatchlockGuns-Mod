@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBM",
+        "  G"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:metal_rod"
+        },
+        "M": {
+            "item": "matchlockweapons:matchlock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:matchlock_gun",
+            "nbt": {
+            "loaded" : false
+            },
+        "count": 1
+    }
+}

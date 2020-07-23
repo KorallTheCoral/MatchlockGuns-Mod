@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSB",
+        " PR"
+    ],
+    "key": {
+        "R": {
+            "item": "matchlockweapons:revolver_mechanism"
+        },
+        "B": {
+            "item": "minecraft:iron_block"
+        },
+        "S": {
+            "item": "matchlockweapons:smooth_barrel"
+        },
+        "P": {
+            "item": "matchlockweapons:emerald_mechanical_parts"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:puckle_gun",
+        "count": 1
+    }
+}

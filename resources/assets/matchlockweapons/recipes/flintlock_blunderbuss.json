@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IBM",
+        "  G"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:smooth_barrel"
+        },
+        "M": {
+            "item": "matchlockweapons:flintlock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:flintlock_blunderbuss",
+            "nbt": {
+            "loaded" : false
+            },
+        "count": 1
+    }
+}

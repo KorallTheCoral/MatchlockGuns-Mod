@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "R",
+        "G",
+        "P"
+    ],
+    "key": {
+        "R": {
+            "item": "matchlockweapons:roundshot"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:paper_shot_low",
+        "count": 1
+    }
+}

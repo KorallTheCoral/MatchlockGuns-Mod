@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I  ",
+        " M ",
+        "  L"
+    ],
+    "key": {
+        "M": {
+            "item": "matchlockweapons:metal_rod"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:gun_ram_rod",
+        "count": 1
+    }
+}

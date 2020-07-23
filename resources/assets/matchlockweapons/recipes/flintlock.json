@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  F",
+        "IIM",
+        "GGG"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "F": {
+            "item": "minecraft:flint"
+        },
+        "G": {
+            "item": "minecraft:gold_nugget"
+        },
+        "M": {
+            "item": "matchlockweapons:gold_mechanical_parts"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:flintlock",
+        "count": 1
+    }
+}

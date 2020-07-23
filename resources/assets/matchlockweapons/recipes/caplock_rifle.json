@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBM",
+        "  G"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:rifled_barrel"
+        },
+        "M": {
+            "item": "matchlockweapons:caplock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:caplock_rifle",
+            "nbt": {
+            "loaded" : false,
+            "cooldown" : 0
+            },
+        "count": 1
+    }
+}

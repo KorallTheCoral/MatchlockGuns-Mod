@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " MS",
+        "IGI"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "matchlockweapons:spring"
+        },
+        "M": {
+            "item": "matchlockweapons:iron_mechanical_parts"
+        },
+        "G": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:wheellock",
+        "count": 1
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBM",
+        "  G"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:smooth_barrel"
+        },
+        "M": {
+            "item": "matchlockweapons:flintlock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:flintlock_musket",
+            "nbt": {
+            "loaded" : false,
+            "cooldown" : 0
+            },
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BIM",
+        "BBG"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:metal_rod"
+        },
+        "M": {
+            "item": "matchlockweapons:matchlock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        },
+        "I": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:matchlock_pepperbox",
+            "nbt": {
+            "loaded" : 0
+            },
+        "count": 1
+    }
+}

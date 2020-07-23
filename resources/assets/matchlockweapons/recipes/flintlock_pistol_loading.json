@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BG",
+        " A"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:roundshot"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "A": {
+            "type" : "minecraft:item_nbt",
+            "item": "matchlockweapons:flintlock_pistol",
+            "nbt": {
+            "loaded" : false,
+            "cooldown" : 0
+            },
+            "data" : 0
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:flintlock_pistol",
+            "nbt": {
+            "loaded" : true,
+            "cooldown" : 0
+            },
+        "count": 1
+    }
+}

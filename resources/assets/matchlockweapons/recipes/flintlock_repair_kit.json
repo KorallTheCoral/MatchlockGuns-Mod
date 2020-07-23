@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SFS",
+        " S "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "F": {
+            "item": "matchlockweapons:flintlock"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:flintlock_repair_kit",
+        "count": 1
+    }
+}

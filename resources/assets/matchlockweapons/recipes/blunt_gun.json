@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IBM",
+        " PG"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:smooth_barrel"
+        },
+        "M": {
+            "item": "matchlockweapons:flintlock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "P": {
+            "item": "matchlockweapons:diamond_mechanical_parts"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:blunt_gun",
+            "nbt": {
+            "loaded" : false,
+            "cooldown" : 0
+            },
+        "count": 1
+    }
+}

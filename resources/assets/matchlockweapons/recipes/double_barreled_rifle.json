@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBM",
+        "BPG"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:rifled_barrel"
+        },
+        "M": {
+            "item": "matchlockweapons:flintlock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        },
+        "P": {
+            "item": "matchlockweapons:emerald_mechanical_parts"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:double_barreled_rifle",
+            "nbt": {
+            "loaded" : 0
+            },
+        "count": 1
+    }
+}

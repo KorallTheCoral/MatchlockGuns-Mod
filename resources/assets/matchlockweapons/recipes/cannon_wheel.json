@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ISI",
+        "S S",
+        "ISI"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:cannon_wheel",
+        "count": 1
+    }
+}

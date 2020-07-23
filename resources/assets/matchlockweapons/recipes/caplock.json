@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "P P",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "P": {
+            "item": "matchlockweapons:emerald_mechanical_parts"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:caplock",
+        "count": 1
+    }
+}

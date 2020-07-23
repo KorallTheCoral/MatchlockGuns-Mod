@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " P ",
+        "BMG"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:metal_rod"
+        },
+        "M": {
+            "item": "matchlockweapons:matchlock"
+        },
+        "G": {
+            "item": "minecraft:gold_ingot"
+        },
+        "P": {
+            "item": "matchlockweapons:matchlock_pistol"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:double_matchlock_pistol",
+            "nbt": {
+            "loaded" : false,
+            "cooldown" : 0
+            },
+        "count": 1
+    }
+}

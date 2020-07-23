@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "b",
+        "I",
+        "M"
+    ],
+    "key": {
+        "b": {
+            "item": "matchlockweapons:puckle_gun"
+        },
+        "M": {
+            "item": "minecraft:iron_block"
+        },
+        "I": {
+            "item": "matchlockweapons:metal_rod"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:puckle_cannon_item",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " NN",
+        "NSN",
+        "BN "
+    ],
+    "key": {
+        "S": {
+            "item": "matchlockweapons:paper_shot_high"
+        },
+        "N": {
+            "item": "minecraft:iron_nugget"
+        },
+        "B": {
+            "item": "minecraft:blaze_powder"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:percussion_shot",
+        "count": 1
+    }
+}

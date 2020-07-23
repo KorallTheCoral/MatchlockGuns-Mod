@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NN ",
+        "N N",
+        " N "
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:slug",
+        "count": 1
+    }
+}

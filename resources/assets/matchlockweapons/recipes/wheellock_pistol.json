@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BM",
+        " G"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:smooth_barrel"
+        },
+        "M": {
+            "item": "matchlockweapons:wheellock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:wheellock_pistol",
+            "nbt": {
+            "loadedshots" : 0
+            },
+        "count": 1
+    }
+}

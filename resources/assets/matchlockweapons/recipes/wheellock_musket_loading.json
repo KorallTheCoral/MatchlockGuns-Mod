@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BG",
+        "GA"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:roundshot"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "A": {
+            "item": "matchlockweapons:wheellock_musket",
+            "data" : 1
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:wheellock_musket",
+            "nbt": {
+            "loadedshots" : -1
+            },
+        "count": 1
+    }
+}

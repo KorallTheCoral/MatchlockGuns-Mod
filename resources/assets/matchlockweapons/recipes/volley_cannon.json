@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "B ",
+        "WW"
+    ],
+    "key": {
+        "W": {
+            "item": "matchlockweapons:cannon_wheel"
+        },
+        "B": {
+            "item": "matchlockweapons:volley_barrel"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:volley_cannon_item",
+        "count": 1
+    }
+}

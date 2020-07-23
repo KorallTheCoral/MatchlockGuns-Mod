@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "bbC",
+        " ww"
+    ],
+    "key": {
+        "w": {
+            "item": "matchlockweapons:cannon_wheel"
+        },
+        "b": {
+            "item": "matchlockweapons:cannon_barrel"
+        },
+        "C": {
+            "item": "matchlockweapons:gold_mechanical_parts"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:heavy_cannon_item",
+        "count": 1
+    }
+}

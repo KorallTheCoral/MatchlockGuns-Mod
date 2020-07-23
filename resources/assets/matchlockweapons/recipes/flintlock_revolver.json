@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BM",
+        "RG"
+    ],
+    "key": {
+        "B": {
+            "item": "matchlockweapons:smooth_barrel"
+        },
+        "M": {
+            "item": "matchlockweapons:flintlock"
+        },
+        "G": {
+            "item": "matchlockweapons:grip"
+        },
+        "R": {
+            "item": "matchlockweapons:revolver_mechanism"
+        }
+    },
+    "result": {
+        "type" : "minecraft:item_nbt",
+        "item": "matchlockweapons:flintlock_revolver",
+            "nbt": {
+            "loaded" : 0
+            },
+        "count": 1
+    }
+}

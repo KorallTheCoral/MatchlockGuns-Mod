@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I  ",
+        " S ",
+        "  L"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:chisel",
+        "count": 1
+    }
+}

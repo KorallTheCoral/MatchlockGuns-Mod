@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " G ",
+        "LLL",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "G": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "matchlockweapons:gunpowder_bag",
+        "count": 1
+    }
+}
