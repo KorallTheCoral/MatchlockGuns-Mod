@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "matchlockweapons:blocks/lathe_side",
+        "down": "matchlockweapons:blocks/lathe_side",
+        "up": "matchlockweapons:blocks/lathe_top",
+        "north": "matchlockweapons:blocks/lathe_side",
+        "east": "matchlockweapons:blocks/lathe_side",
+        "south": "matchlockweapons:blocks/lathe_side",
+        "west": "matchlockweapons:blocks/lathe_side"
+    }
+}

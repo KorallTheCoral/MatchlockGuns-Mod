@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "matchlockweapons:items/double_barreled_flintlock_pistol"
+   }
+}

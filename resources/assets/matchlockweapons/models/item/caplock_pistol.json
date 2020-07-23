@@ -1,0 +1,8 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "matchlockweapons:items/caplock_pistol"
+   }
+}
+
+//"item/bow" works too

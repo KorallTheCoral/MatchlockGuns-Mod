@@ -1,0 +1,213 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "WheelTexture": "matchlockweapons:blocks/wheeltexture"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "WheelBase",
+            "from": [ 7, 0, 4 ], 
+            "to": [ 9, 2, 12 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 8, 2 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 8, 2 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] }
+            }
+        },
+        {
+            "name": "WheelEdge1",
+            "from": [ 7, 1, 3 ], 
+            "to": [ 9, 2, 4 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "WheelEdge2",
+            "from": [ 7, 1, 12 ], 
+            "to": [ 9, 2, 13 ], 
+            "faces": {
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "WheelSide1",
+            "from": [ 7, 2, 12 ], 
+            "to": [ 9, 10, 14 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "WheelTopEdge2",
+            "from": [ 7, 10, 12 ], 
+            "to": [ 9, 11, 13 ], 
+            "faces": {
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "WheelSide2",
+            "from": [ 7, 2, 2 ], 
+            "to": [ 9, 10, 4 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "WheelTop",
+            "from": [ 7, 10, 4 ], 
+            "to": [ 9, 12, 12 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 8, 2 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 2 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 8, 2 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] }
+            }
+        },
+        {
+            "name": "WheelTopEdge1",
+            "from": [ 7, 10, 3 ], 
+            "to": [ 9, 11, 4 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "WheelSpokeBT",
+            "from": [ 7, 2, 7 ], 
+            "to": [ 9, 10, 9 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 8 ] }
+            }
+        },
+        {
+            "name": "WheelSpokeSTS1",
+            "from": [ 7, 5, 4 ], 
+            "to": [ 9, 7, 7 ], 
+            "faces": {
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 3, 2 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 3, 2 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 3 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 3 ] }
+            }
+        },
+        {
+            "name": "WheelSpokeSTS2",
+            "from": [ 7, 5, 9 ], 
+            "to": [ 9, 7, 12 ], 
+            "faces": {
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 3, 2 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 3, 2 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 3 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 3 ] }
+            }
+        },
+        {
+            "name": "WheelEdgeInside2",
+            "from": [ 7, 2, 11 ], 
+            "to": [ 9, 3, 12 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "WheelEdgeInside1",
+            "from": [ 7, 2, 4 ], 
+            "to": [ 9, 3, 5 ], 
+            "faces": {
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "WheelTopInsideEdge2",
+            "from": [ 7, 9, 11 ], 
+            "to": [ 9, 10, 12 ], 
+            "faces": {
+                "north": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        },
+        {
+            "name": "WheelTopInsideEdge1",
+            "from": [ 7, 9, 4 ], 
+            "to": [ 9, 10, 5 ], 
+            "faces": {
+                "east": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] },
+                "west": { "texture": "#WheelTexture", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#WheelTexture", "uv": [ 0, 0, 2, 1 ] }
+            }
+        }
+    ]
+}

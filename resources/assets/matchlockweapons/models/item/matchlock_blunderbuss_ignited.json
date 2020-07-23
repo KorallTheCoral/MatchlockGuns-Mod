@@ -1,0 +1,8 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "matchlockweapons:items/matchlock_blunderbuss_ignited"
+   }
+}
+
+//"item/bow" works too

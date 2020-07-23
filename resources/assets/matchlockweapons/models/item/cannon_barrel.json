@@ -1,0 +1,78 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "CanonTexture": "matchlockweapons:blocks/canontexture",
+        "SmallHoleTextureScaled": "matchlockweapons:blocks/smallholetexture_scaled"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "BasePipe",
+            "from": [ 4, 2, -10 ], 
+            "to": [ 12, 10, 21 ], 
+            "faces": {
+                "east": { "texture": "#CanonTexture", "uv": [ 0, 0, 16, 8 ] },
+                "south": { "texture": "#CanonTexture", "uv": [ 0, 0, 8, 8 ] },
+                "west": { "texture": "#CanonTexture", "uv": [ 0, 0, 16, 8 ] },
+                "up": { "texture": "#CanonTexture", "uv": [ 0, 0, 8, 16 ] },
+                "down": { "texture": "#CanonTexture", "uv": [ 0, 0, 8, 16 ] }
+            }
+        },
+        {
+            "name": "BackEdgeLarge",
+            "from": [ 5, 3, 20 ], 
+            "to": [ 11, 9, 24 ], 
+            "faces": {
+                "east": { "texture": "#CanonTexture", "uv": [ 0, 0, 4, 6 ] },
+                "south": { "texture": "#CanonTexture", "uv": [ 0, 0, 6, 6 ] },
+                "west": { "texture": "#CanonTexture", "uv": [ 0, 0, 4, 6 ] },
+                "up": { "texture": "#CanonTexture", "uv": [ 0, 0, 6, 4 ] },
+                "down": { "texture": "#CanonTexture", "uv": [ 0, 0, 6, 4 ] }
+            }
+        },
+        {
+            "name": "Front",
+            "from": [ 3, 1, -14 ], 
+            "to": [ 13, 11, -10 ], 
+            "faces": {
+                "north": { "texture": "#SmallHoleTextureScaled", "uv": [ 3, 3, 13, 13 ] },
+                "east": { "texture": "#CanonTexture", "uv": [ 0, 0, 4, 10 ] },
+                "south": { "texture": "#CanonTexture", "uv": [ 0, 0, 10, 10 ] },
+                "west": { "texture": "#CanonTexture", "uv": [ 0, 0, 4, 10 ] },
+                "up": { "texture": "#CanonTexture", "uv": [ 0, 0, 10, 4 ] },
+                "down": { "texture": "#CanonTexture", "uv": [ 0, 0, 10, 4 ] }
+            }
+        }
+    ]
+}

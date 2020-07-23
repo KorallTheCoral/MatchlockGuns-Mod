@@ -1,0 +1,66 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "canontexture": "matchlockweapons:blocks/canontexture",
+        "volleyfront_scaled": "matchlockweapons:blocks/volleyfront_scaled"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Body",
+            "from": [ 2, 0, -6 ], 
+            "to": [ 14, 12, 24 ], 
+            "faces": {
+                "north": { "texture": "#volleyfront_scaled", "uv": [ 0, 0, 12, 12 ] },
+                "east": { "texture": "#canontexture", "uv": [ 0, 0, 16, 12 ] },
+                "south": { "texture": "#canontexture", "uv": [ 0, 0, 12, 12 ] },
+                "west": { "texture": "#canontexture", "uv": [ 0, 0, 16, 12 ] },
+                "up": { "texture": "#canontexture", "uv": [ 0, 0, 12, 16 ] },
+                "down": { "texture": "#canontexture", "uv": [ 0, 0, 12, 16 ] }
+            }
+        },
+        {
+            "name": "Back",
+            "from": [ 3, 1, 24 ], 
+            "to": [ 13, 11, 30 ], 
+            "faces": {
+                "east": { "texture": "#canontexture", "uv": [ 0, 0, 6, 10 ] },
+                "south": { "texture": "#canontexture", "uv": [ 0, 0, 10, 10 ] },
+                "west": { "texture": "#canontexture", "uv": [ 0, 0, 6, 10 ] },
+                "up": { "texture": "#canontexture", "uv": [ 0, 0, 10, 6 ] },
+                "down": { "texture": "#canontexture", "uv": [ 0, 0, 10, 6 ] }
+            }
+        }
+    ]
+}
